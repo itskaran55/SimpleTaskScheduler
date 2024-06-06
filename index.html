@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="title">
+                <h1>Karan's Task Scheduler</h1>
+            </div>
+            <div class="queries">
+                <input type="text" placeholder="Enter your Task" class="task" style="padding: 5px 7px;">
+                <select class="priority" style="padding: 5px 7px;">
+                    <option class="first" >First Priority</option>
+                    <option class="second" >Second Priority</option>
+                    <option class="third" >Third Priority</option>
+                </select>
+                <input type="date" class="dates" style="padding: 5px 7px;">
+                <button class="add" onclick="fetchData()" style="padding: 5px 7px;">Add Task</button>
+            </div>
+            <div class="result">
+                <div class="data">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
